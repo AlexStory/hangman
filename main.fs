@@ -1,5 +1,6 @@
 open System
 
-let main argv = do
+[<EntryPoint>]
+let main argv =
     Console.WriteLine(argv)
     0
